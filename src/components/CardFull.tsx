@@ -1,5 +1,4 @@
 import { Container, Card, CardContent } from "@mui/material";
-import NoPictures from "../img/NoPictures.png";
 
 export const CardFull = ({
   image,
@@ -7,12 +6,14 @@ export const CardFull = ({
   content,
   description,
   link,
+  NoPictures,
 }: {
   image: string | null | undefined;
   title: string | null | undefined;
   content: string | null | undefined;
   description: string | null | undefined;
   link: string | null | undefined;
+  NoPictures: string;
 }) => {
   return (
     <div className="article-wrapper">

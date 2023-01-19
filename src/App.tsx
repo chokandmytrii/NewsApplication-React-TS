@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer";
 import { CssBaseline } from "@mui/material";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./Styles/style.scss";
+import NoPictures from "./img/NoPictures.png";
 
 export interface ArticleInterface {
   id?: number;
@@ -66,6 +67,8 @@ function App() {
     if (localValue !== null && topic === "") {
       newsArr = JSON.parse(localValue);
       setOldTopic(getTopic());
+    } else if (localValue === null) {
+      newsArr = [];
     }
 
     if (topic !== "") {
@@ -374,6 +377,7 @@ function App() {
           oldTopic={oldTopic}
           addElements={addElements}
           quantity={quantity}
+          NoPictures={NoPictures}
         />
         <Footer />
       </div>

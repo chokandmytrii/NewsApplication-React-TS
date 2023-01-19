@@ -1,5 +1,4 @@
 import { Card, CardMedia, Grid } from "@mui/material";
-import NoPictures from "../img/NoPictures.png";
 
 export const CardElement = ({
   id,
@@ -10,6 +9,7 @@ export const CardElement = ({
   shortDescription,
   content,
   description,
+  NoPictures,
 }: {
   id: number | undefined;
   image: string | null | undefined;
@@ -19,6 +19,7 @@ export const CardElement = ({
   shortDescription: string | null | undefined;
   content: string | null | undefined;
   description: string | null | undefined;
+  NoPictures: string;
 }) => {
   return (
     <Grid className="card__item" container item lg={4}>

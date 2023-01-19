@@ -10,12 +10,14 @@ export const Main = ({
   oldTopic,
   addElements,
   quantity,
+  NoPictures,
 }: {
   findTopic: any;
   newsArray: Object[];
   oldTopic: string;
   addElements: any;
   quantity: number;
+  NoPictures: string;
 }) => {
   return (
     <main className="main">
@@ -76,6 +78,7 @@ export const Main = ({
                         shortDescription={element.shortDescription}
                         content={element.content}
                         description={element.description}
+                        NoPictures={NoPictures}
                       />
                     ))}
                 </Grid>
@@ -99,6 +102,7 @@ export const Main = ({
                 content={element.content}
                 description={element.description}
                 link={element.link}
+                NoPictures={NoPictures}
               />
             }
           />

@@ -1,0 +1,24 @@
+.footer {
+    background-color: $background-footer;
+    color: white;
+    padding: $def-margin * 1.5;
+    box-shadow: 0 -3px 25px $background-footer;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__part-center {
+            text-align: center;
+        }
+
+        &__link {
+            font-weight: $bold;
+        }
+
+        &__mail {
+            font-weight: $semi-bold;
+        }
+    }
+}

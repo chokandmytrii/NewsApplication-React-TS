@@ -1,0 +1,29 @@
+.App {
+    font-family: $font;
+    font-size: $font-size-main;
+    color: $font-color-main;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    text-decoration: none;
+    color: $font-color-main;
+    font-weight: $bold;
+
+    &__svg {
+        margin-left: 6px;
+
+        &-card {
+            margin-right: 6px;
+        }
+    }
+}
+
+.anchor {
+    text-decoration: none;
+    color: white;
+}

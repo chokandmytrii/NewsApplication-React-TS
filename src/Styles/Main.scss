@@ -1,0 +1,53 @@
+.main {
+    margin-bottom: $def-margin * 3;
+    flex-grow: 1;
+}
+
+.form {
+    margin-top: $def-margin * 2.5;
+
+    &__title {
+        margin-bottom: $def-margin / 2;
+        font-weight: $semi-bold;
+    }
+
+    &__result {
+        margin-bottom: $def-margin * 2.5;
+        font-weight: $semi-bold;
+        position: relative;
+
+        &::after {
+            content: '';
+            height: 1px;
+            background-color: #EAEAEA;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+        }
+    }
+
+    &__svg {}
+}
+
+.card {
+    margin-bottom: $def-margin * 1.5;
+}
+
+.btn {
+    padding: $def-margin / 2 $def-margin;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $background-footer;
+    border-radius: 10px;
+    font-size: $font-size-main;
+
+    &-disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}

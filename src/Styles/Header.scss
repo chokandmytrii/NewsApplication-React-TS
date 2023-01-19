@@ -1,0 +1,17 @@
+.header {
+    padding: $def-margin * 1.5;
+    border-bottom: 2px solid #EAEAEA;
+    font-weight: $semi-bold;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        font-size: $font-size-article;
+
+
+        &__anchor {
+            color: black;
+            scroll-behavior: smooth;
+        }
+    }
+}

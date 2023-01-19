@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/css/main.fd36f2e8.css",
-    "main.js": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/js/main.51347671.js",
-    "static/js/787.305e6e4f.chunk.js": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/js/787.305e6e4f.chunk.js",
-    "static/media/NoPictures.png": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/media/NoPictures.fd7450253e72e8ccb42d.png",
-    "index.html": "/https://chokandmytrii.github.io/NewsApplication-React-TS/index.html",
-    "main.fd36f2e8.css.map": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/css/main.fd36f2e8.css.map",
-    "main.51347671.js.map": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/js/main.51347671.js.map",
-    "787.305e6e4f.chunk.js.map": "/https://chokandmytrii.github.io/NewsApplication-React-TS/static/js/787.305e6e4f.chunk.js.map"
+    "main.css": "/NewsApplication-React-TS/static/css/main.fd36f2e8.css",
+    "main.js": "/NewsApplication-React-TS/static/js/main.ab8c351c.js",
+    "static/js/787.305e6e4f.chunk.js": "/NewsApplication-React-TS/static/js/787.305e6e4f.chunk.js",
+    "static/media/NoPictures.png": "/NewsApplication-React-TS/static/media/NoPictures.fd7450253e72e8ccb42d.png",
+    "index.html": "/NewsApplication-React-TS/index.html",
+    "main.fd36f2e8.css.map": "/NewsApplication-React-TS/static/css/main.fd36f2e8.css.map",
+    "main.ab8c351c.js.map": "/NewsApplication-React-TS/static/js/main.ab8c351c.js.map",
+    "787.305e6e4f.chunk.js.map": "/NewsApplication-React-TS/static/js/787.305e6e4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd36f2e8.css",
-    "static/js/main.51347671.js"
+    "static/js/main.ab8c351c.js"
   ]
 }
